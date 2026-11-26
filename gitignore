@@ -1,0 +1,39 @@
+# LendingClub datasets and exports
+*.csv
+*.csv.gz
+*.tsv
+*.parquet
+*.zip
+/data/
+
+# Tableau packaged workbooks and extracts
+*.twbx
+*.hyper
+*.tde
+*.tbak
+
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.my.cnf
+my.ini
+credentials.json
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.tmp
+*.log
